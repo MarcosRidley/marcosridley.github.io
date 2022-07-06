@@ -89,21 +89,39 @@ export default function TechStack() {
   ]
 
   return (
-		<section id="tech-stack">
-			<h2>Habilidades e tecnologias</h2>
-			<img id="most-used" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MarcosRidley&theme=great-gatsby&bg_color=000312&border_color=000312&hide_title=true&layout=compact" alt="Linguagens mais utilizadas por Marcos"></img>
-      <div className="technologies">
-      { nameArray.map((name, index) => (
-        <Technology name={name} image={imageArray[index]} link={linkArray[index]} key={name}/>
-      ))
-      }
-      </div>
-        <h4>Formações</h4>
-      <div className="technologies">
-        { schools.map((name, index) => (
-          <Technology name={name} image={schoolImages[index]} link={schoolLinks[index]} key={name} />
-        )) }
-      </div>
-		</section>
+		<div className="tech-stack-container">
+			<section id="tech-stack">
+				<h2>Habilidades e tecnologias</h2>
+				<img
+					id="most-used"
+					src="https://github-readme-stats.vercel.app/api/top-langs/?username=MarcosRidley&theme=great-gatsby&bg_color=000312&border_color=000312&hide_title=true&layout=compact"
+					alt="Linguagens mais utilizadas por Marcos"
+				></img>
+				<div className="technologies">
+					{nameArray.map((name, index) => (
+						<Technology
+							name={name}
+							image={imageArray[index]}
+							link={linkArray[index]}
+							key={name}
+						/>
+					))}
+				</div>
+				<h4>Formações</h4>
+				<div className="technologies">
+					{schools.map((name, index) => (
+						<Technology
+							name={name}
+							image={schoolImages[index]}
+							link={schoolLinks[index]}
+							key={name}
+						/>
+					))}
+				</div>
+			</section>
+			<div className="ocean">
+				<div className="wave"></div>
+			</div>
+		</div>
 	);
 }

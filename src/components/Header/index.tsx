@@ -12,7 +12,7 @@ export default function Header() {
 						<Nav className="me-auto">
 							<Nav.Link href="#bio">Sobre mim</Nav.Link>
 							<Nav.Link href="#tech-stack">Tecnologias e treinamento</Nav.Link>
-							<Nav.Link href="#project">Projetos</Nav.Link>
+							<Nav.Link href="#projects">Projetos</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
 				</Container>

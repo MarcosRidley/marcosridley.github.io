@@ -8,7 +8,7 @@ export default function Bio():JSX.Element {
       <p>Sou de Belo Horizonte, MG, graduado em Ciências Aeronáuticas e piloto civil por formação - transicionando de carreira desde julho/2021, quando redescobri minha paixão pelo desenvolvimento que estava reprimida desde os meus 12 anos, tempos em que fazia Bot pra Tibia e hack pra Grand Chase. Desde então busco aperfeiçoar minha lógica, desenvolver minhas soft skills e adquirir novas ferramentas me aproveitando do conjunto de habilidades único que tenho adquiri ao longo de minha carreira na aviação e meu gosto ímpar por ler manuais e documentação.</p>
       </div>
       <div id="facts">
-        <h4>Alguns fatos sobre mim</h4>
+        <h4>Curiosidades</h4>
         <ul>
           <li>Meu MBTI é ISTP-A</li>
           <li>Meu podcast favorito é o Jovem Nerd</li>

@@ -1,6 +1,9 @@
+.tech-stack-container {
+  background: linear-gradient(60deg, rgb(200,72,184), rgb(74,71,184), rgb(8,161,192));
+}
+
 #tech-stack {
   margin-top: 10vh;
-  background: linear-gradient(60deg, rgb(200,72,184), rgb(74,71,184), rgb(8,161,192));
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   width: 100%;
@@ -38,4 +41,43 @@
 i {
   width: 20px;
   color:white
+}
+
+
+
+.ocean { 
+  height: 10%;
+  width:100%;
+}
+
+.wave {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+  height: 198px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+  top: -175px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
+
+@keyframes swell {
+  0%, 100% {
+    transform: translate3d(0,-25px,0);
+  }
+  50% {
+    transform: translate3d(0,5px,0);
+  }
 }
