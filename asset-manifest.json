@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.80ce292c.css",
+    "main.js": "/static/js/main.e1c08e2b.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/weatherApp.jpg": "/static/media/weatherApp.7b39d5429676b627be63.jpg",
+    "static/media/MFB.jpg": "/static/media/MFB.994d079d3d7f2b041bf2.jpg",
+    "static/media/onlineStore.jpg": "/static/media/onlineStore.d4009e2e9f1265e9f256.jpg",
+    "static/media/pokedex.jpg": "/static/media/pokedex.6a743d97e5be8165b1c7.jpg",
+    "static/media/RTLandingPage.jpg": "/static/media/RTLandingPage.38fd71dc7570e880ff95.jpg",
+    "static/media/todo.jpg": "/static/media/todo.f4bbbd258915d72b106d.jpg",
+    "static/media/TTT.jpg": "/static/media/TTT.a866906881197c7c0823.jpg",
+    "static/media/myJSCalculator.jpg": "/static/media/myJSCalculator.10d6e476cfeb4efdf215.jpg",
+    "static/media/jest.svg": "/static/media/jest.9af4e60c6fab328c50bef879f9e60d25.svg",
+    "static/media/freecodecamp.svg": "/static/media/freecodecamp.d0af8d88b029481ec4992168a53d818f.svg",
+    "static/media/typescript.svg": "/static/media/typescript.40f5999c73738f152a516f64798e48c3.svg",
+    "static/media/alura.svg": "/static/media/alura.67e9d5c1825a88faab0fa16b28629a3d.svg",
+    "static/media/github.svg": "/static/media/github.92f719acde5fe933d098484f6c01d1b5.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.4854b6849343c9b558c51b5e5cdc1214.svg",
+    "static/media/odin.svg": "/static/media/odin.9b30578d7bee0dbf6398b608e1d77d3e.svg",
+    "static/media/redux.svg": "/static/media/redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
+    "static/media/bootstrap.svg": "/static/media/bootstrap.b74f5e327438aeb217a910827f441e34.svg",
+    "static/media/javascript.svg": "/static/media/javascript.19600440c8c62e3de974e2bba991871f.svg",
+    "static/media/git.svg": "/static/media/git.aeeb13ab71f0fa41e8bb99688f96cfdd.svg",
+    "index.html": "/index.html",
+    "static/media/css3.svg": "/static/media/css3.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
+    "static/media/html5.svg": "/static/media/html5.8ae3d4adcd70a1028a6377697d9f33b0.svg",
+    "static/media/mui.svg": "/static/media/mui.87264df237ee700ba78bb58ff701a6d3.svg",
+    "static/media/react.svg": "/static/media/react.928f956d9c8ebcffb98a8e917154a81a.svg",
+    "main.80ce292c.css.map": "/static/css/main.80ce292c.css.map",
+    "main.e1c08e2b.js.map": "/static/js/main.e1c08e2b.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80ce292c.css",
+    "static/js/main.e1c08e2b.js"
+  ]
+}
