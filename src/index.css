@@ -29,10 +29,12 @@ code {
 
   *::-webkit-scrollbar-track {
     background: #ffffff;
+    opacity: 5%
   }
 
   *::-webkit-scrollbar-thumb {
     background-color: #0b9cbf;
-    border-radius: 10px;
-    border: 2px none #ffffff;
+    border-radius: 8px;
+    border: 1px solid #CCC;
+    box-shadow: 2px 1px 3px black;
   }

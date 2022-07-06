@@ -40,9 +40,21 @@
 .technology-name {
 	width: 100%;
 }
+
+.technology-image {
+	height: 96px;
+}
+
+.filtered {
+	filter: invert(74%) sepia(84%) saturate(0%) hue-rotate(316deg) brightness(95%) contrast(92%);
+}
 #most-used {
 	width: 50%;
 	margin: 1em 0 0.8em;
+}
+
+h5 {
+	font-size: 1em;
 }
 
 @media screen and (max-width: 767px) {

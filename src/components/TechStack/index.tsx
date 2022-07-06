@@ -11,10 +11,17 @@ import muiImage from './imgs/mui.svg';
 import reactImage from './imgs/react.svg';
 import reduxImage from './imgs/redux.svg';
 import rtlImage from './imgs/RTL.png';
+import odinLogo from './imgs/odin.svg';
+import trybeLogo from './imgs/trybe.png';
+import aluraLogo from './imgs/alura.svg';
+import fccLogo from './imgs/freecodecamp.svg';
+
 
 import './TechStack.css';
 
 export default function TechStack() {
+
+
   const imageArray:string[] = [
     htmlImage,
     cssImage,
@@ -60,6 +67,27 @@ export default function TechStack() {
     'https://github.com/',
   ]
 
+  const schools: string[] = [
+    'Trybe',
+    'TheOdinProject',
+    'FreeCodeCamp',
+    'Alura',
+  ]
+
+  const schoolLinks: string[] = [
+		'https://www.betrybe.com/',
+		'https://www.theodinproject.com/',
+		'https://www.freecodecamp.org/',
+		'https://www.alura.com.br/',
+	];
+
+  const schoolImages: string[] = [
+    trybeLogo,
+    odinLogo,
+    fccLogo,
+    aluraLogo,
+  ]
+
   return (
 		<section id="tech-stack">
 			<h2>Habilidades e tecnologias</h2>
@@ -69,6 +97,12 @@ export default function TechStack() {
         <Technology name={name} image={imageArray[index]} link={linkArray[index]} key={name}/>
       ))
       }
+      </div>
+        <h4>Formações</h4>
+      <div className="technologies">
+        { schools.map((name, index) => (
+          <Technology name={name} image={schoolImages[index]} link={schoolLinks[index]} key={name} />
+        )) }
       </div>
 		</section>
 	);

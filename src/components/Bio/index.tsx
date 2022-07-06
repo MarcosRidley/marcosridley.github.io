@@ -5,7 +5,7 @@ export default function Bio():JSX.Element {
     <section id='bio'>
       <h2>Sobre mim</h2>
       <div className="biography"><p>Oi, eu sou o Marcos! Tenho 26 anos e agradeço pela oportunidade de poder te falar um pouco sobre mim.</p>
-      <p>Sou de Belo Horizonte, MG, graduado em Ciências Aeronáuticas e piloto civil por formação - transicionando de carreira desde julho/2021, quando redescobri minha paixão pelo desenvolvimento que estava reprimida desde os meus 12 anos, tempos em que fazia Bot pra Tibia e hack pra Grand Chase. Desde então busco aperfeiçoar minha lógica, desenvolver minhas soft skills e adquirir novas ferramentas me aproveitando do conjunto de habilidades único que tenho adquiri ao longo de minha carreira na aviação - e meu gosto ímpar por ler manuais e documentação.</p>
+      <p>Sou de Belo Horizonte, MG, graduado em Ciências Aeronáuticas e piloto civil por formação - transicionando de carreira desde julho/2021, quando redescobri minha paixão pelo desenvolvimento que estava reprimida desde os meus 12 anos, tempos em que fazia Bot pra Tibia e hack pra Grand Chase. Desde então busco aperfeiçoar minha lógica, desenvolver minhas soft skills e adquirir novas ferramentas me aproveitando do conjunto de habilidades único que tenho adquiri ao longo de minha carreira na aviação e meu gosto ímpar por ler manuais e documentação.</p>
       </div>
       <div id="facts">
         <h4>Alguns fatos sobre mim</h4>
