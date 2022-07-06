@@ -1,0 +1,31 @@
+.footer {
+    background-color: rgb(41, 41, 41);
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+  }
+  footer p {
+      font-size: 1em;
+      color: #CCC;
+  }
+  #github-logo {
+      fill: white;
+  }
+  #github-logo:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+  }
+
+  .footer > a > img {
+    height: 4em;
+    transition: 2s;
+  }
+
+  .footer > a > img:hover {
+    transform: rotate(360deg);
+  }

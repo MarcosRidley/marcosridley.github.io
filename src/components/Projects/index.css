@@ -24,4 +24,5 @@
   flex-wrap: wrap;
   width: 70%;
   justify-content: space-evenly;
+  margin-bottom: 2em;
 }

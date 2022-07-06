@@ -1,0 +1,11 @@
+.modal-paragraph {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.modal-paragraph > a {
+  text-decoration: none;
+}
+
+.modal-paragraph > a:hover {
+  text-decoration:underline;
+}

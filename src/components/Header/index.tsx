@@ -1,7 +1,11 @@
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { useState } from 'react';
 import './index.css';
+import MyVerticallyCenteredModal from './ContactModal';
 
 export default function Header() {
+const [modalShow, setModalShow] = useState(false);
+
 	return (
 		<div>
 			<Navbar bg="light" expand="lg" fixed="top">
@@ -13,6 +17,7 @@ export default function Header() {
 							<Nav.Link href="#bio">Sobre mim</Nav.Link>
 							<Nav.Link href="#tech-stack">Tecnologias e treinamento</Nav.Link>
 							<Nav.Link href="#projects">Projetos</Nav.Link>
+							<Nav.Link onClick={() => setModalShow(true)}>Contato</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
 				</Container>
@@ -68,6 +73,12 @@ export default function Header() {
 					</a>
 				</div>
 			</div>
+			<>
+				<MyVerticallyCenteredModal
+					show={modalShow}
+					onHide={() => setModalShow(false)}
+				/>
+			</>
 		</div>
 	);
 }

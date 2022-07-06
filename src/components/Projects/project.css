@@ -36,6 +36,14 @@
 }
 
 .project > a {
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin-bottom: 0.5em;
   text-decoration: none;
   color: white
+}
+
+.project > a:hover {
+  color:yellow
 }

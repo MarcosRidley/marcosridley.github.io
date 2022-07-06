@@ -9,7 +9,6 @@ import jogoDaVelha from './imgs/TTT.jpg';
 import appClima from './imgs/weatherApp.jpg';
 import onlineStore from './imgs/onlineStore.jpg';
 
-
 const projects = [
 	{
 		name: 'Minha primeira Landing Page',
@@ -72,16 +71,24 @@ const projects = [
 ];
 
 export default function Projects() {
-	
 	return (
 		<section id="projects">
 			<h3 id="projects-heading">Projetos</h3>
 			<div className="projects-container">
-        { projects.map((proj) => {
-          const { name, image, description, link, repositoryLink } = proj;
-          return (<Project name={name} image={image} description={description} link={link} repositoryLink={repositoryLink} />)
-        })}
-      </div>
+				{projects.map((proj) => {
+					const { name, image, description, link, repositoryLink } = proj;
+					return (
+						<Project
+							name={name}
+							image={image}
+							description={description}
+							link={link}
+							repositoryLink={repositoryLink}
+							key={name}
+						/>
+					);
+				})}
+			</div>
 		</section>
 	);
 }
