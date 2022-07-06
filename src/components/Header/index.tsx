@@ -1,10 +1,23 @@
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './index.css';
 import MyVerticallyCenteredModal from './ContactModal';
 
 export default function Header() {
-const [modalShow, setModalShow] = useState(false);
+	const [modalShow, setModalShow] = useState(false);
+	const [hasScrolled, setHasScrolled] = useState(false);
+
+
+
+	useEffect(() => {
+			const killArrow = () => {
+			if(window.pageYOffset > 400) {
+				setHasScrolled(true) 
+				window.removeEventListener('scroll', killArrow)
+			}
+		}
+		window.addEventListener('scroll', killArrow);
+	});
 
 	return (
 		<div>
@@ -66,13 +79,13 @@ const [modalShow, setModalShow] = useState(false);
 					</svg>
 				</div>
 			</div>
-			<div className="content flex">
+			{!hasScrolled && <div className="content flex">
 				<div className="arrow bounce">
 					<a className="fa fa-arrow-down fa-2x" href="#bio">
 						&#129095;
 					</a>
 				</div>
-			</div>
+			</div>}
 			<>
 				<MyVerticallyCenteredModal
 					show={modalShow}

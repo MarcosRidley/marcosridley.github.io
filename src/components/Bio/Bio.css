@@ -4,7 +4,21 @@
 .biography {
   padding: 2vh 10vw 0;
 }
+
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
 ul {
-  text-align: center;
-  list-style-position: inside;
+  text-align: left;
+}
+
+@media (max-width:380px) {
+  #about {
+    flex-direction: column;
+    align-items: stretch;
+  }
 }

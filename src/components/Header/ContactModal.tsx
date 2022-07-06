@@ -22,19 +22,43 @@ export default function MyVerticallyCenteredModal(props: any) {
 				>
 					<p className="modal-paragraph">
 						Você consegue me encontrar com facilidade no{' '}
-						<a href="https://www.linkedin.com/in/marcosridley/">Linkedin</a> e
-						consegue ver o que estou desenvolvendo no meu{' '}
-						<a href="https://github.com/marcosridley">Github</a>.
+						<a
+							href="https://www.linkedin.com/in/marcosridley/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Linkedin
+						</a>{' '}
+						e consegue ver o que estou desenvolvendo no meu{' '}
+						<a
+							href="https://github.com/marcosridley"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Github
+						</a>
+						.
 					</p>
 					<p className="modal-paragraph">
 						Está recrutando? Meu CV está disponível para download{' '}
-						<a href="./cv.pdf" download="Currículo Marcos Ridley.pdf">
+						<a
+							href="https://drive.google.com/file/d/1m345lAVDtCZujzFXX8leoL9ZuNtUzGeX/view?usp=sharing"
+							target="_blank"
+							rel="noreferrer"
+						>
 							aqui
 						</a>
 					</p>
 					<p className="modal-paragraph">
 						Entre em contato comigo via e-mail{' '}
-						<a href="mailto:marcosridley@hotmail.com">clicando aqui</a>.
+						<a
+							href="mailto:marcosridley@hotmail.com"
+							target="_blank"
+							rel="noreferrer"
+						>
+							clicando aqui
+						</a>
+						.
 					</p>
 				</div>
 			</Modal.Body>

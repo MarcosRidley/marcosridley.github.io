@@ -1,49 +1,67 @@
 .project {
-  min-width: 50%;
-  max-width: 50%;
-    padding: 1em;
-    margin: 0.5em;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: space-between;
-    align-items: center;
-    color: #CCC;
-    background-color: rgba(191,191,255, 0.3);
-    text-align: center;
-    border-radius: 8px;
-    transition: 0.5s
+	width: 40%;
+	padding: 1em;
+	margin: 0.5em;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: space-between;
+	align-items: center;
+	color: #ccc;
+	background-color: rgba(191, 191, 255, 0.3);
+	text-align: center;
+	border-radius: 8px;
+	transition: 0.5s;
+  justify-content: space-between;
 }
 
 .project:hover {
-  transform:translateY(-0.5em)
+	transform: translateY(-0.5em);
 }
 
 .project > h5 {
-  font-size: 1em;
+	font-size: 1em;
 }
 
 .project > img {
-  margin: 1em 0;
-  width: 100%;
-  max-height: 200px;
+	margin: 1em 0;
+	width: 100%;
+	max-height: 200px;
 }
 
 .project > p {
-  color: #CCC;
-  width: 100%
+	color: #ccc;
+	width: 100%;
 }
 
-.project > a {
-  box-sizing: border-box;
-  border: 1px solid gray;
-  border-radius: 8px;
-  margin-bottom: 0.5em;
-  text-decoration: none;
-  color: white
+.project > div {
+  display: flex;
+  flex-direction: column;
 }
 
-.project > a:hover {
-  color:yellow
+.project > div > a {
+	box-sizing: border-box;
+	border: 1px solid gray;
+	border-radius: 8px;
+	margin-bottom: 0.5em;
+	text-decoration: none;
+	color: white;
+	padding: 0 0.5em;
+}
+
+.project > div > a:hover {
+	background-color: rgb(150,150,150);
+}
+
+@media (min-width: 1024px) {
+  .project {
+    width:25%
+  }
+} 
+
+@media (max-width: 480px) {
+  .project {
+    width: 80%;
+  }
 }

@@ -1,5 +1,12 @@
+#gradient1 {
+  min-height: 10vh;
+  background-image: linear-gradient(to bottom,white,rgb(120, 200, 230) , rgba(8,161,192, 0%), rgba(8,161,192, 50%), rgba(8,161,192, 0%) );
+}
+
+
 .tech-stack-container {
-  background: linear-gradient(60deg, rgb(200,72,184), rgb(74,71,184), rgb(8,161,192));
+  margin-top: 5em;
+  background-image:linear-gradient(to bottom, rgb(8,161,192), rgb(77,68,184)) ;
 }
 
 #tech-stack {

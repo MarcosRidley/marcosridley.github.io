@@ -90,6 +90,7 @@ export default function TechStack() {
 
   return (
 		<div className="tech-stack-container">
+			<div id="gradient1" />
 			<section id="tech-stack">
 				<h2>Habilidades e tecnologias</h2>
 				<img
