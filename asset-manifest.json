@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.401dd33a.css",
-    "main.js": "/static/js/main.9e94fd8d.js",
+    "main.css": "/static/css/main.bedd60b4.css",
+    "main.js": "/static/js/main.19bb8e3e.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/weatherApp.jpg": "/static/media/weatherApp.7b39d5429676b627be63.jpg",
     "static/media/MFB.jpg": "/static/media/MFB.994d079d3d7f2b041bf2.jpg",
@@ -27,12 +27,12 @@
     "static/media/html5.svg": "/static/media/html5.8ae3d4adcd70a1028a6377697d9f33b0.svg",
     "static/media/mui.svg": "/static/media/mui.87264df237ee700ba78bb58ff701a6d3.svg",
     "static/media/react.svg": "/static/media/react.928f956d9c8ebcffb98a8e917154a81a.svg",
-    "main.401dd33a.css.map": "/static/css/main.401dd33a.css.map",
-    "main.9e94fd8d.js.map": "/static/js/main.9e94fd8d.js.map",
+    "main.bedd60b4.css.map": "/static/css/main.bedd60b4.css.map",
+    "main.19bb8e3e.js.map": "/static/js/main.19bb8e3e.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.401dd33a.css",
-    "static/js/main.9e94fd8d.js"
+    "static/css/main.bedd60b4.css",
+    "static/js/main.19bb8e3e.js"
   ]
 }
