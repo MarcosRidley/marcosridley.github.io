@@ -23,7 +23,7 @@ export default function Bio(): JSX.Element {
 			</div>
 			<div id="about">
 				<div id="facts">
-					<h4>Curiosidades</h4>
+					<h5>Curiosidades</h5>
 					<ul>
 						<li>Meu MBTI é ISTP-A</li>
 						<li>Meu podcast favorito é o Jovem Nerd</li>

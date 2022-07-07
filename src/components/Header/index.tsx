@@ -11,10 +11,9 @@ export default function Header() {
 
 	useEffect(() => {
 			const killArrow = () => {
-			if(window.pageYOffset > 400) {
+			if(window.pageYOffset > 200) {
 				setHasScrolled(true) 
-				window.removeEventListener('scroll', killArrow)
-			}
+			} else if(hasScrolled) setHasScrolled(false) 
 		}
 		window.addEventListener('scroll', killArrow);
 	});
@@ -79,13 +78,15 @@ export default function Header() {
 					</svg>
 				</div>
 			</div>
-			{!hasScrolled && <div className="content flex">
+			<div id="welcome">
+				{!hasScrolled ? <div className="content flex">
 				<div className="arrow bounce">
-					<a className="fa fa-arrow-down fa-2x" href="#bio">
+					<a className="fa fa-arrow-down fa-2x" href="#welcome">
 						&#129095;
 					</a>
 				</div>
-			</div>}
+			</div> : <h2 className="content flex tracking-in-expand-fwd-bottom">Bem vindo ao meu portfolio</h2>}
+				</div>
 			<>
 				<MyVerticallyCenteredModal
 					show={modalShow}
